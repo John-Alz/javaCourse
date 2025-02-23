@@ -1,0 +1,7 @@
+package variables;
+
+public class From {
+    public static void main(String[] args) {
+
+    }
+}
