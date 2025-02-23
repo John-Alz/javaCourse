@@ -10,16 +10,16 @@ public class OpracionesMatet {
 
         // Pedimos el primer numero al usuario
         System.out.println("Escribe el primer numero entero: ");
-        int num1 = scan.nextInt();
+        double num1 = scan.nextDouble();
 
         // Pedimos el segundo numero al usuario
         System.out.println("Escribe el segundo numero entero: ");
-        int num2 = scan.nextInt();
+        double num2 = scan.nextDouble();
 
         // opcion de operacion
         boolean salir = false;
         int operacion;
-        int result;
+        double result;
 
         while (!salir) {
             System.out.println("1. Suma");
