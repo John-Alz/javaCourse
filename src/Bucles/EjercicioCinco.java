@@ -9,8 +9,9 @@ public class EjercicioCinco {
 
         while (!word.equalsIgnoreCase("Salir")) {
             System.out.println("Ingresa una plabra: ");
-            word = scan.next();
+            word = scan.nextLine();
             System.out.println(word);
         }
+        System.out.println("Gracias por usar nuestro programa!!!");
     }
 }
